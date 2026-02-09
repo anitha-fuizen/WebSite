@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Website (Next.js)
 
-## Getting Started
+A professional, interactive personal website built with **Next.js (App Router)**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+## Run locally
 
 ```bash
+cd /home/anitha/personal-website
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customize your content
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Edit this single file:
 
-## Learn More
+- `src/data/profile.ts`
 
-To learn more about Next.js, take a look at the following resources:
+Update:
+- **Name / headline / summary**
+- **Email**
+- **Social links (GitHub, LinkedIn)**
+- **Skills**
+- **Projects**
+- **Experience**
+- **Site URL** (used for SEO metadata)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Folder structure (high level)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `src/app/`: Next.js routes + layout
+- `src/components/`: reusable UI building blocks (navbar, footer, buttons, etc.)
+- `src/sections/`: page sections (Hero, About, Skills, Projects, Experience, Contact)
+- `src/data/`: content (profile, projects, experience)
+- `src/lib/`: shared utilities (e.g. `cn` for className merging)
 
-## Deploy on Vercel
+## Build
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run build
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deploy
+
+This project works well on Vercel (or any Node hosting that supports Next.js).
+
