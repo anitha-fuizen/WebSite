@@ -66,7 +66,7 @@ export const profile = {
   resume: {
     label: "Resume",
     
-    href: "/resume",
+    href: "/Anitha_AI_Fullstack.pdf",
     
     fileName: "Anitha_AI_Fullstack.pdf",
   },

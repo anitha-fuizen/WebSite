@@ -1,10 +1,10 @@
 import { Container } from "@/components/Container";
 import { MotionInView } from "@/components/MotionInView";
 import { SectionHeading } from "@/components/SectionHeading";
-import { profile } from "@/data/profile";
+import { profile, type EducationItem } from "@/data/profile";
 
 export function EducationSection() {
-  const items = profile.education;
+  const items = profile.education as readonly EducationItem[];
 
   return (
     <section id="education" className="scroll-mt-24 py-16">
