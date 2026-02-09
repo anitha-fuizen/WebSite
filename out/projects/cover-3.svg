@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="0.5" stop-color="#F1F5F9"/>
+      <stop offset="1" stop-color="#ECFCCB"/>
+    </linearGradient>
+    <linearGradient id="accent3" x1="320" y1="260" x2="1280" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB7185" stop-opacity="0.7"/>
+      <stop offset="0.45" stop-color="#22C55E" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#6366F1" stop-opacity="0.65"/>
+    </linearGradient>
+    <filter id="blur3" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="34" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg3)"/>
+
+  <path d="M260 740C520 520 720 520 900 520C1140 520 1290 410 1460 270" stroke="#0F172A" stroke-opacity="0.16" stroke-width="12" stroke-linecap="round"/>
+
+  <circle cx="1160" cy="260" r="240" fill="url(#accent3)" filter="url(#blur3)" opacity="0.55"/>
+  <circle cx="420" cy="660" r="280" fill="url(#accent3)" filter="url(#blur3)" opacity="0.45"/>
+
+  <g opacity="0.22">
+    <rect x="920" y="150" width="540" height="360" rx="28" fill="#FFFFFF"/>
+    <rect x="960" y="196" width="260" height="20" rx="10" fill="#111827" opacity="0.12"/>
+    <rect x="960" y="232" width="440" height="16" rx="8" fill="#111827" opacity="0.08"/>
+    <rect x="960" y="260" width="410" height="16" rx="8" fill="#111827" opacity="0.08"/>
+    <rect x="960" y="308" width="490" height="160" rx="18" fill="#111827" opacity="0.06"/>
+  </g>
+</svg>
+
+

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5F3FF"/>
+      <stop offset="0.5" stop-color="#EEF2FF"/>
+      <stop offset="1" stop-color="#ECFEFF"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="300" y1="220" x2="1200" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C3AED" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#06B6D4" stop-opacity="0.7"/>
+    </linearGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" />
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <circle cx="1260" cy="210" r="220" fill="url(#accent)" filter="url(#blur)" opacity="0.55"/>
+  <circle cx="420" cy="680" r="260" fill="url(#accent)" filter="url(#blur)" opacity="0.45"/>
+
+  <g opacity="0.25">
+    <path d="M80 760C260 620 420 560 640 540C940 512 1120 360 1520 160" stroke="#0F172A" stroke-width="10" stroke-linecap="round"/>
+    <path d="M120 820C320 660 480 600 700 580C980 556 1140 420 1560 210" stroke="#7C3AED" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.22">
+    <rect x="140" y="150" width="520" height="340" rx="28" fill="#FFFFFF" />
+    <rect x="170" y="190" width="260" height="22" rx="11" fill="#111827" opacity="0.12"/>
+    <rect x="170" y="230" width="430" height="18" rx="9" fill="#111827" opacity="0.08"/>
+    <rect x="170" y="262" width="380" height="18" rx="9" fill="#111827" opacity="0.08"/>
+    <rect x="170" y="294" width="410" height="18" rx="9" fill="#111827" opacity="0.08"/>
+    <rect x="170" y="340" width="140" height="36" rx="18" fill="#7C3AED" opacity="0.35"/>
+    <rect x="320" y="340" width="140" height="36" rx="18" fill="#06B6D4" opacity="0.25"/>
+  </g>
+</svg>
+
+
