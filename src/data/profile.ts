@@ -66,7 +66,8 @@ export const profile = {
   resume: {
     label: "Resume",
     
-    href: "/Anitha_AI_Fullstack.pdf",
+    // Keep as a relative URL so it works both on Vercel (/) and GitHub Pages (/WebSite).
+    href: "Anitha_AI_Fullstack.pdf",
     
     fileName: "Anitha_AI_Fullstack.pdf",
   },
